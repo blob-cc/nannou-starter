@@ -1,0 +1,12 @@
+[package]
+name = "nannou-template"
+version = "0.1.0"
+authors = ["Your Name <youremail@example.com>"]
+edition = "2021"
+
+[dependencies]
+nannou = "0.16"
+nannou_audio = "0.10"  # Optional: for audio visualization projects
+rand = "0.8"           # For randomness in examples
+serde = { version = "1.0", features = ["derive"] }  # For potential configuration serialization
+ron = "0.6"            # For using RON configuration files
